@@ -8,7 +8,7 @@ kali-vm-metasploitable-repo/
 └── vagrant/
     └── Vagrantfile_metasploitable3_example <- downloading link for metasploitable vm "https://sourceforge.net/projects/metasploitable/"
 # Steps to import kali linux and metasploitable into vmware 
-1.Open VMware Workstation or VMware Fusion on your computer.
+1. Open VMware Workstation or VMware Fusion on your computer.
 2. To import Kali (OVA): choose File → Open and select the downloaded Kali .ova file, then follow the VMware import wizard to add the VM.
 3. To install Kali from ISO instead of OVA: choose File → New Virtual Machine, select the Kali ISO when prompted, and follow the installer steps.
 4. To add Metasploitable (VMDK): create a new virtual machine and when asked for a disk choose the option to use an existing virtual disk and select the Metasploitable .vmdk file from the downloads folder.
